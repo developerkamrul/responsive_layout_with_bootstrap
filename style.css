@@ -1,0 +1,77 @@
+.hero {
+  height: 300px;
+}
+
+.mainSection {
+  height: 200px;
+}
+.imgExtra {
+  height: 200px;
+}
+.image {
+  height: 100px;
+}
+.extra {
+  height: 100px;
+}
+
+.banner {
+  height: 100px;
+}
+
+@media screen and (max-width: 576px) {
+  .main {
+    height: 100px;
+  }
+  .image {
+    position: relative;
+    top: 180px;
+  }
+  .extra {
+    position: relative;
+    top: -20px;
+  }
+  .banner {
+    position: relative;
+    top: -100px;
+    height: 80px;
+  }
+  .banner h1 {
+    position: relative;
+    top: -10px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .row {
+    position: relative;
+  }
+  .menu {
+    width: 30%;
+    position: absolute;
+    top: 355px;
+    height: 401px;
+  }
+  .main {
+    position: absolute;
+    width: 70%;
+    height: 250px;
+    right: 0;
+  }
+  .banner {
+    width: 70%;
+    position: absolute;
+    right: 0;
+  }
+  .image {
+    position: absolute;
+    top: 300px;
+    width: 35%;
+    right: 0;
+  }
+  .extra {
+    position: absolute;
+    top: 300px;
+    margin-left: 30%;
+    width: 35%;
+  }
+}
