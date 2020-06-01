@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 576px) {
   .main {
-    height: 100px;
+    height: 200px;
   }
   .image {
     position: relative;
@@ -33,7 +33,7 @@
   }
   .banner {
     position: relative;
-    top: -100px;
+    top: 0px;
     height: 80px;
   }
   .banner h1 {
